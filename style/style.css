@@ -1,0 +1,20 @@
+body{
+  background-color: #16181D;
+}
+
+.bg-banner{
+  background-image: url('../public/img/banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1000px) {
+  .info {
+    width: 100%;
+  }
+
+  .info h1{
+    font-size: 2rem;
+  }
+}

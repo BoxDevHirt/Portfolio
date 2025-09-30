@@ -1,26 +1,35 @@
-body{
-  background-color: #16181D;
+body {
+  background-color: #16181d;
 }
 
-.bg-banner{
-  background-image: url('../public/img/banner.png');
+.bg-banner {
+  background-image: url("../public/img/banner.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.contact{
-  background-image: url('../public/img/banner.png');
+.contact {
+  background-image: url("../public/img/banner.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   height: 40rem !important;
   display: flex !important;
 }
 
-@media (max-width: 1250px) {
-  .project-flex{
-    flex-direction: column;
+.contact a {
+  background-color: #292c34;
+  color: #fff;
+}
+
+.project {
+  background-color: #292c34;
+}
+
+@media (max-width: 1280px) {
+  .project {
+    flex-direction: column !important;
   }
 }
 
@@ -29,21 +38,28 @@ body{
     width: 100%;
   }
 
-  .info h1{
+  .info h1 {
     font-size: 2rem;
   }
 }
 
 @media (max-width: 800px) {
-  .project{
-    flex-direction: column;
+  .project {
     width: 100%;
   }
 
-  .project img{
-    height: 200px 
-    !important;
+  .project-flex {
+    grid-template-columns: 1fr !important;
+  }
+
+  .project img {
     width: 100% !important;
     object-fit: cover;
+  }
+}
+
+@media (max-width: 700px) {
+  .container div:nth-child(2) {
+    width: 100%;
   }
 }

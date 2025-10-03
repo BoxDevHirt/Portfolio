@@ -1,0 +1,121 @@
+{
+    "banner": {
+        "image": "public/img/foto.jpg",
+        "imageAlt": "Imagem de perfil",
+        "title": "Hello World! Meu nome é <span class=\"text-red-500\">Vitor Hirt</span> e sou",
+        "subtitle": "Desenvolvedor PHP",
+        "description": "Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.",
+        "tags": [
+            {
+                "name": "Github",
+                "color": "green"
+            },
+            {
+                "name": "PHP",
+                "color": "purple"
+            },
+            {
+                "name": "HTML",
+                "color": "blue"
+            },
+            {
+                "name": "CSS",
+                "color": "red"
+            },
+            {
+                "name": "Javascript",
+                "color": "yellow"
+            }
+        ]
+    },
+    "Projects": [
+        {
+            "title": "Projeto 1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl sit amet.",
+            "tags": [
+                {
+                    "name": "PHP",
+                    "color": "purple"
+                },
+                {
+                    "name": "HTML",
+                    "color": "blue"
+                },
+                {
+                    "name": "CSS",
+                    "color": "red"
+                },
+                {
+                    "name": "Javascript",
+                    "color": "yellow"
+                }
+            ]
+        },
+        {
+            "title": "Projeto 2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl sit amet.",
+            "tags": [
+                {
+                    "name": "PHP",
+                    "color": "purple"
+                },
+                {
+                    "name": "HTML",
+                    "color": "blue"
+                },
+                {
+                    "name": "CSS",
+                    "color": "red"
+                },
+                {
+                    "name": "Javascript",
+                    "color": "yellow"
+                }
+            ]
+        },
+        {
+            "title": "Projeto 3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl sit amet.",
+            "tags": [
+                {
+                    "name": "PHP",
+                    "color": "purple"
+                },
+                {
+                    "name": "HTML",
+                    "color": "blue"
+                },
+                {
+                    "name": "CSS",
+                    "color": "red"
+                },
+                {
+                    "name": "Javascript",
+                    "color": "yellow"
+                }
+            ]
+        }
+    ],
+    "Contact": [
+        {
+            "name": "Github",
+            "icon": "fa-brands fa-github",
+            "link": "https://github.com/vitorhirt"
+        },
+        {
+            "name": "LinkedIn",
+            "icon": "fa-brands fa-linkedin",
+            "link": "https://www.linkedin.com/in/vitor-hirt/"
+        },
+        {
+            "name": "Facebook",
+            "icon": "fa-brands fa-facebook",
+            "link": "https://www.facebook.com/vitor.hirt.3"
+        },
+        {
+            "name": "Instagram",
+            "icon": "fa-brands fa-instagram",
+            "link": "https://www.instagram.com/vitorhirt/"
+        }
+    ]
+}
